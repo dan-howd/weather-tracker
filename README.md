@@ -1,6 +1,6 @@
 ##Backend Rails App for Weathertracker
 
-To be used along with [Weather Track Frontend](https://github.com/jminterwebs/weathertrack-frontend)
+To be used along with [Weather Track Frontend](https://github.com/dan-howd/weathertrack-react)
 
 This app pulls data from the [Darksky API](https://darksky.net/dev) and saves it to a database. To seed the database the past 30 days of weather are parsed for both LA and NYC. After that there is a cron job that runs which will update the weather every day.
 
